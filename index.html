@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Table Canva Test</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="options">
+            <a class="title">Table Canva Test</a>
+            <form>
+                <a class="name">Pixel Size: <span id="siz"></span></a>
+                <input type="range" class="size" min="5" max="100" value="10" step="5" onclick="sessionStorage.setItem('pixel-size', this.value); window.location.reload();">
+                <span class="preview" id="prev_siz"></span>
+            </form>
+            <form>
+                <a class="name">Thickness: <span id="thi"></span></a>
+                <input type="range" class="thick" min="0" max="100" value="30" onclick="sessionStorage.setItem('thickness', this.value)">
+                <span class="preview" id="prev_thi"></span>
+            </form>
+        </div>
+        <div class="container" id="container"><div class="table" id="table"></div></div>
+        <script src="script.js"></script>
+    </body>
+</html>

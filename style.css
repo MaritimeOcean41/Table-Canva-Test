@@ -1,0 +1,76 @@
+.options
+{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 600px;
+    height: 500px;
+    transform: translate(0,-50%);
+}
+.options .title
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 20%;
+    font-size: 3.5em;
+    font-weight: 600;
+}
+.options form
+{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    margin-top: 20px;
+}
+.options form .name
+{
+    display: block;
+    width: 100%;
+    font-size: 2em;
+}
+.options form input
+{
+    width: 60%;
+}
+
+.options .preview
+{
+    background-color: #000;
+    position: absolute;
+    display: inline-block;
+    right: 10%;
+    top: 20px;
+}
+
+/* Canva */
+.container
+{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 60vw;
+    height: 100vh;
+}
+.table
+{
+    position: relative;
+    top: 50%;
+    left: 10%;
+    width: 500px;
+    min-height: 500px;
+    border: 1px #ccc solid;
+    transform: translate(0,-50%);
+}
+.line
+{
+    display: block;
+    width: 100%;
+    justify-content: space-around;
+}
+.painter
+{
+    background-color: aqua;
+    position: absolute;
+    display: block;
+}
